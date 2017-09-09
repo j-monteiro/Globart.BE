@@ -1,6 +1,14 @@
-# Node Rest Api
+# Globart.BE		 +# Node Rest Api
+Backend for the Globart project developed using Express and MongoDB
 
-A simple template for building a node restful api service
+For the UI project check https://github.com/1130419/globartUI	
+
+## Authors
+João Monteiro (jlmonteiro95@gmail.com)
+
+Carlos Silva (carlos.silva2495@gmail.com)
+
+# Node Rest Api
 
 ## 技术栈
 - nodejs
