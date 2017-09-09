@@ -6,7 +6,9 @@ const config = {
   develop: {
     mongodb: {
       host: '127.0.0.1',
-      database: 'example'
+      database: 'globart',
+      //user: 'globartAdmin',
+      //password: 'globart123'
     }
   },
   production: {
