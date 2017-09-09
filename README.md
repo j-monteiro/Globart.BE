@@ -1,4 +1,4 @@
-# Globart.BE		 +# Node Rest Api
+# Globart.BE
 Backend for the Globart project developed using Express and MongoDB
 
 For the UI project check https://github.com/1130419/globartUI	
