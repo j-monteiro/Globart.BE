@@ -27,6 +27,7 @@ const init = () => {
       });
     });
   }
+  mongoose.set('debug', true);
 };
 
 export default { init };

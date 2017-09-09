@@ -8,7 +8,6 @@ export async function ensureLogin(req, res, next) {
   if (req.user) {
     next();
   } else {
-    // 不需要权限的路由
     const excludeUrls = ['/user/create', '/user/login'];
     for (const excludeUrl of excludeUrls) {
       if (req.url.indexOf(excludeUrl) === 0) {

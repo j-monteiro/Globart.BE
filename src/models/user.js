@@ -14,7 +14,7 @@ UserSchema.options.toJSON.transform = (doc, ret) => {
   return ret;
 };
 
-const User = mongoose.model('user', UserSchema);
+const User = mongoose.model('users', UserSchema);
 
 /**
  * @swagger

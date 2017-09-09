@@ -25,7 +25,7 @@ app.use(bodyParser.json({
   limit: '50mb'
 }));
 
-app.use('/', routes);
+app.use('/api', routes);
 
 app.use(errorHandle);
 
