@@ -1,28 +1,33 @@
 # Globart.BE
+
 Backend for the Globart project developed using Express and MongoDB
 
 For the UI project check https://github.com/1130419/globartUI	
 
 ## Authors
+
 João Monteiro (jlmonteiro95@gmail.com)
 
 Carlos Silva (carlos.silva2495@gmail.com)
 
-# Node Rest Api
+## Node Rest Api
 
-## 技术栈
+### 技术栈
+
 - nodejs
 - express
 - mongodb
 - mocha
 - swagger-jsdoc
 
-## 项目简介
+### 项目简介
+
 - 使用ES6/ES7特性
 - 使用ESlint进行语法检测，遵循[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - 使用swagger-doc管理文档. Visualize document using Swagger UI.
 
-## 开发、测试、打包命令
+### 开发、测试、打包命令
+
 ``` bash
 # mongodb config
 # config locate in: src/config.js
@@ -53,14 +58,16 @@ npm run test
 
 ```
 
-## DOC
+### DOC
+
 you can visualize the doc and test the api using Swagger Doc through web browser.
 
 URL are as below
 
 [http://swagger.daguchuangyi.com/?url=http://localhost:8888/swagger.json#!](http://swagger.daguchuangyi.com/?url=http://localhost:8888/swagger.json#!)
 
-## 项目结构
+### 项目结构
+
 ```
 /src              项目源码文件夹
   /models         使用mongoose定义的model的目录
@@ -69,7 +76,7 @@ URL are as below
   config.js         配置文件
   log.js            export了一个log模块
   main.js           程序入口文件
-package.json      
+package.json
 README.md
 .babelrc
 .eslintrc
