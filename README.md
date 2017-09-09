@@ -9,3 +9,5 @@ For the UI project check https://github.com/1130419/globartUI
 João Monteiro (jlmonteiro95@gmail.com)
 
 Carlos Silva (carlos.silva2495@gmail.com)
+
+## END
