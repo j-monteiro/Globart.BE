@@ -1,5 +1,5 @@
 {
-  "name": "Globart.BE",
+  "name": "globart.be",
   "version": "1.1.0",
   "description": "Manage pieces of art",
   "scripts": {
@@ -8,6 +8,7 @@
     "serve": "node dist/main",
     "start:babel": "babel-node src/main",
     "start": "NODE_ENV=develop nodemon --watch src --exec npm run start:babel -L",
+    "debug": "node --debug ./src/main.js",
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --compilers js:babel-core/register test/**/*.js --bail -t 2000000"
   },
   "author": "Globart",

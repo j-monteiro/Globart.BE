@@ -2,23 +2,24 @@
         "version": "0.2.0",
         "configurations": [
             {
-                "type": "extensionHost",
-                "request": "launch",
-                "name": "Launch Extension",
-                "runtimeExecutable": "${execPath}",
-                "args": [
-                    "--extensionDevelopmentPath=${workspaceRoot}"
-                ],
-                "outFiles": [
-                    "${workspaceRoot}/out/**/*.js"
-                ],
-                "preLaunchTask": "npm"
-            },
-            {
+                "name": "Launch",
                 "type": "node",
                 "request": "launch",
-                "name": "Launch Program",
-                "program": "${file}"
+                "program": "${workspaceRoot}/src/main.js",
+                "stopOnEntry": false,
+                "args": [],
+                "cwd": "${workspaceRoot}",
+                "preLaunchTask": null,
+                "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+                "runtimeArgs": [
+                    "--nolazy"
+                ],
+                "env": {
+                    "NODE_ENV": "develop"
+                },
+                "console": "integratedTerminal",
+                "sourceMaps": false,
+                "outFiles": []
             }
         ]
     }
