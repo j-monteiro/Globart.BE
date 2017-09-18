@@ -11,6 +11,7 @@ const init = () => {
     if (user && password) {
       mongoUrl = `mongodb://${user}:${password}@${host}:27017/${database}?authSource=admin`;
     }
+
     mongoose.connect(mongoUrl);
     status = 'CONNECTING';
     const db = mongoose.connection;

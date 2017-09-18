@@ -1,7 +1,7 @@
 import express from 'express';
 import user from './user';
 import workOfArt from './workOfArt';
-import transaction from './transaction';
+// import transaction from './transaction';
 import { ensureLogin } from './privilege';
 import { swagDocHandler } from '../utils';
 
@@ -21,6 +21,6 @@ router.get('/swagger.json', swagDocHandler);
 // example user routes providing: [create|login|get] method.
 router.use('/users', user);
 router.use('/works-of-art', workOfArt);
-router.use('/transactions', transaction);
+// router.use('/transactions', transaction);
 
 export default router;
